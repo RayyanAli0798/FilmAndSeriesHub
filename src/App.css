@@ -1,0 +1,57 @@
+:root {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+
+}
+
+.NavigationBar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100vw;
+
+
+
+
+  background-color: #E50914;
+  color: white;
+
+  >h1 {
+    color: black;
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin: 10px;
+  }
+
+  >img {
+    min-height: 10%;
+    min-width: 10%;
+    max-width: 10%;
+    padding: 10px;
+  }
+
+  >.NavLinks {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 25px;
+    color: white;
+
+    margin-left: auto;
+
+    font-size: larger;
+
+    >li {
+      list-style-type: none;
+
+      >a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        text-align: center;
+        font-size: larger;
+        margin-left: 15px;
+      }
+    }
+  }
+}
