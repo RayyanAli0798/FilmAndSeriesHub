@@ -1,0 +1,42 @@
+.WeeklyFavouritesBody {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+.WeeklyBoxTitle{
+    color: white;
+    margin: 0 auto;
+
+    
+}
+.WeeklyFavouritesContainer{
+    display: flex;
+    justify-content: space-around;
+
+    >.NameBox{
+        height: 100%;
+        max-width: 30%;
+
+        >img{
+            height: 500px;
+            width: 500px;
+        }
+        >h3{
+            font-family: sans-serif;
+            font-size: x-large;
+            color: white;
+        }
+        >.NameDescriptionBox{
+            background-color:#E50914;
+            border-radius: 5px;
+            color: white;
+        }
+
+    }
+}

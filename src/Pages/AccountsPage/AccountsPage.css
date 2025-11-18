@@ -1,0 +1,92 @@
+.AccountPageLayout {
+    display: flex;
+    color: white;
+    margin-top: 40vh;
+    >img{
+        width: 50%;
+        height: 100vh;
+        margin: -25vh;
+        margin-left: -5%;
+        position: absolute;
+        overflow: hidden;
+    }
+}
+
+.AccountsPageColumn {
+    border: 2px solid rgb(255, 255, 255);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 2%;
+    
+    
+    
+
+}
+
+.DetailsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 25px;
+
+}
+
+.InputBoxs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.InputBox{
+    width: 50vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 10px;
+
+
+}
+.ButtonsArea{
+    display: flex;
+    gap: 20px;
+    height: 100%;
+width: 100%;
+justify-content: space-between;
+
+}
+
+.ProceedingBTN{
+    background-color: red;
+font-weight: 800;
+color: white;
+font-family: sans-serif;
+font-size: large;
+border: 2px solid red;
+border-radius: 7px;
+
+}
+.OtherOptions{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.ChangingBTN{
+    width: fit-content;
+    background-color: transparent;
+color: white;
+align-self: flex-end;
+
+border: 2px solid transparent;
+
+
+
+
+}
