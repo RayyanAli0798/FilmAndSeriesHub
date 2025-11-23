@@ -17,25 +17,30 @@
 }
 .WeeklyFavouritesContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     >.NameBox{
         height: 100%;
         max-width: 30%;
+        
 
         >img{
             height: 500px;
             width: 500px;
+
         }
         >h3{
             font-family: sans-serif;
             font-size: x-large;
             color: white;
+            text-align: center;
         }
         >.NameDescriptionBox{
             background-color:#E50914;
             border-radius: 5px;
             color: white;
+            padding: 10px;
+            
         }
 
     }
